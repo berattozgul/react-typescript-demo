@@ -1,13 +1,10 @@
 import './App.css';
-import { ThemeContextProvider } from './components/context/ThemeContext';
-import { Box } from './components/context/Box';
-import { UserContextProvider } from './components/context/UserContext';
-import { User } from './components/context/User';
-import { Counter } from './components/class/Counter';
+import { Private } from './components/auth/Private';
+import { Profile } from './components/auth/Profile';
 function App() {
   return (
     <div className="App">
-      <Counter message='Hello Darkness my old friend'/>
+      <Private isLoggedIn={true} component={Profile} />
     </div>
   );
 }
