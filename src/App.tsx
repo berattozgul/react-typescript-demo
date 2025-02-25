@@ -6,12 +6,7 @@ import { User } from './components/context/User';
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
-        <Box />
-      </ThemeContextProvider>
-      <UserContextProvider>
-        <User />
-      </UserContextProvider>
+
     </div>
   );
 }
