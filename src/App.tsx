@@ -1,11 +1,10 @@
 import './App.css';
-import { RandomNumber } from './components/ref/restriction/RandomNumber';
-import { Toast } from './components/templateLiterals/Toast';
+import { CustomButton } from './components/html/Button';
 
 function App() {
   return (
     <div className="App">
-      <Toast position="left-top" />
+      <CustomButton variant="primary" >selam</CustomButton>
     </div>
   );
 }
